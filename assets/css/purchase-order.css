@@ -1,0 +1,214 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 !important;
+}
+
+:root {
+    --main-color: #182A66;
+    --scound-color: #C49603;
+    --red-color:#C2000B;
+
+}
+.btn-danger{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--red-color);
+    --bs-btn-border-color: var(--red-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--red-color);
+    --bs-btn-hover-border-color: var(--red-color);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--red-color);
+    --bs-btn-active-border-color: var(--red-color);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--red-color);
+    --bs-btn-disabled-border-color: var(--red-color);
+}
+
+.h-33 {
+    height: 33%;
+}
+.red-color{
+    color: var(--red-color);
+}
+.red-bgcolor{
+    background-color: var(--red-color);
+}
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.scound-color {
+    color: var(--scound-color);
+}
+
+.crusor-pointer {
+    cursor: pointer;
+}
+
+.circle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.active{
+    position: relative;
+}
+.active::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    border-right: 10px solid var(--main-color);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    height: 100%;
+
+}
+.active span{
+    display: block;
+}
+.form-list{
+    position: relative;
+}
+.form-list::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #f4eded;
+    left: 0;
+    top: 0;
+    z-index: -99;
+}
+.form-list li{
+    position: relative;
+}
+.form-list li::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f4eded;
+    height: 1px;
+}
+footer h4{
+    color: #fff;
+      text-transform: uppercase;
+      font-size: 1em;
+      margin: 0 0 1.875em 0;
+      font-weight: 700;
+      font-family: "ge_thameen", "univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  footer ul li a{
+    color: #808080;
+    transition: all .5s ;
+    overflow: hidden;
+    word-spacing: 3px;
+    position: relative;
+  }
+  footer ul li {
+    margin: 0 0 .625em 0;
+    cursor: pointer;
+    font-family: "ge_thameen", "univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    transition: all .5s;
+  }
+  footer ul li a:after {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    content: '';
+    background: #fff;
+    transition: all .5s ease-in-out;
+    right: -100%;
+    bottom: -3px;
+  }
+  footer ul li a:hover {
+    color: #fff;
+  }
+  footer ul li a:hover:after {
+    right: 0;
+  }
+  footer{
+    background-image: url('../images/footer/footer-bg.webp');
+      background-size: cover;
+  }
+  .img-news img{
+    transition: .5s;
+    cursor: pointer;
+  }
+   .img-news img:hover{
+    transform: scale(1.1);
+  }
+  .rotate{
+    line-height: 3;
+    display: inline-block;
+    transform: rotate(270deg);
+    font-size: 12px;
+  }
+.inCarRow1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f3f6fa;
+    height: 40px;
+}
+.innerImg p, .outterImg p {
+    font-weight: 600;
+}
+span .colorName {
+    background-color: #666;
+    color: #fff;
+    font-weight: 500;
+    height: 100%;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 15px;
+}
+.accordion-head{
+    background-color: #666666;
+}
+.accordion-button::after {
+    position: absolute;
+    content: '';
+    left: 10px;
+}
+.accordion-button{
+    position: relative;
+}
+.tab1{
+        padding: 7px 15px;
+}
+.tab1:nth-child(2n){
+    background-color: #f2f2f2;
+}
+.tab1 {
+    background-color: #f9f9f9;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+.whatsApp{
+    bottom: 10px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    z-index: 99999999;
+  }

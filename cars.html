@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="شركة الرسام المحدودة لجميع انواع السيارات"
+    />
+    <title>شركة الرسام المحدوده</title>
+    <!-- icon title -->
+     <link rel="stylesheet" href="assets/css/animate.css">
+    <link
+      rel="shortcut icon"
+      href="/assets/images/Logo/LOGO_4.webPindex_page5_car.webP"
+      type="image/x-icon"
+    />
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/car.css" />
+  </head>
+  <body dir="rtl">
+    <div class="whatsApp position-fixed">
+      <a href="https://wa.me/9660550115887" class="text-decoration-none text-white">
+        <i class="fa-brands fa-whatsapp fs-4"></i>
+      </a>
+</div>
+      <!-- start navbar -->
+      <header>
+        <nav class="container-fluid shadow">
+          <div class="navbar py-3 px-2">
+            <div class="nav-btn">
+              <span
+                id="nav-btn"
+                class="bg-main circle-btn d-flex justify-content-center align-items-center crusor-pointer"
+              >
+                <i
+                  id="icon"
+                  class="fa-solid fa-bars-staggered text-white fs-4"
+                ></i>
+              </span>
+            </div>
+            <div class="nav-bt-mobile">
+              <span
+                id="nav-btn"
+                class="bg-main circle-btn d-flex justify-content-center align-items-center crusor-pointer"
+              >
+                <i
+                  id="icon"
+                  class="fa-solid fa-bars-staggered text-white fs-4"
+                ></i>
+              </span>
+            </div>
+            <div
+              class="nav-logo d-flex justify-content-between align-items-center gap-2"
+            >
+              <h1 class="h5">
+                <a href="index.html" class="text-decoration-none text-black">
+                  شركة الرسام المحدودة
+                </a>
+              </h1>
+              <div>
+                <img
+                  src="assets/images/Logo/LOGO_4.webP"
+                  alt="Logo"
+                  width="65"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div
+              class="nav-search d-flex justify-content-between align-items-center gap-2"
+            >
+              <div class="lang">
+                <span>English</span>
+              </div>
+              <span class="space">|</span>
+              <div>
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- start menu -->
+          <div id="navClick" class="navClick d-none">
+            <div class="container-fluid py-5">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="items">
+                    <ul class="list-unstyled">
+                      <li id="prod">علامتنا التجارية</li>
+                      <li>العروض</li>
+                      <li>الصيانة وقطع غيار</li>
+                      <li>مواقعنا</li>
+                      <li>الاخبار</li>
+                      <li>التوظيف</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    id="product"
+                    class="product animate__animated animate__zoomIn d-none"
+                  >
+                    <ul class="list-unstyled mb-0">
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>هانجاي</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>ساويست</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>عربيات الجولف</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>الدراجات النارية</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    id="cars"
+                    class="product d-none animate__animated animate__zoomIn"
+                  >
+                    <ul class="list-unstyled">
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3"
+                      >
+                        <a href="cars.html" class="text-decoration-none"
+                          >المركبات</a
+                        >
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3"
+                      >
+                        <span>الصيانات و قطع الغيار</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+            </div>
+          </div>
+          <!-- end menu -->
+           <!-- mobile nav -->
+           <div class="navbar-mobile py-4 px-1 d-none">
+            <div class="closeIcon my-2 position-relative">
+              <div class="position-absolute xxx px-3">
+                <i class="fa-solid fa-xmark crusor-pointer"></i>
+              </div>
+            </div>
+            <div class="accordion my-5" id="accordionExample">
+              <div class="accordion-item collapsed">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    علامات التجاريه
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse " data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="list-unstyled p-0">
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          هانجاي
+                        </a>
+                      </li>
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          ساويست
+                        </a>
+                        <span>
+                          
+                        </span>
+                      </li>
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          ساويست
+                        </a>
+                      </li>
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          الدراجات النارية
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    العروض 
+                  </button>
+                </h2>
+
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    الصيانة وقطع غيار 
+                  </button>
+                </h2>
+
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    مواقعنا
+                  </button>
+                </h2>
+
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    الاخبار
+                  </button>
+                </h2>
+
+              </div>
+            </div>
+           </div>
+
+        </nav>
+      </header>
+      <!-- end navbar -->
+      <!-- start main -->
+      <main class="overflow-hidden">
+        <div class="your-slider">
+          <div class="sliders d-flex justify-content-between h-100">
+            <div class="slide-img w-100">
+              <img
+                src="assets/images/cars home img/Honda Accord E-Hev New Listing Banner Desktop Arabic-Final.webp"
+                alt="SlideOne"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between h-100">
+            <div class="slide-img w-100">
+              <img
+                src="assets/images/cars home img/1903X974 PX ARAB.webp"
+                alt="SlideOne"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between h-100">
+            <div class="slide-img w-100">
+              <img
+                src="assets/images/cars home img/1920 x 980_2_New.webp"
+                alt="SlideOne"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between h-100">
+            <div class="slide-img w-100">
+              <img
+                src="assets/images/cars home img/Listing-Banner-Arabic-Without-Disclaimer.webp"
+                alt="SlideOne"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between h-100">
+            <div class="slide-img w-100">
+              <img
+                src="assets/images/cars home img/Landing Banner-Desktop-New-Ar-Final.webp"
+                alt="SlideOne"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- end main -->
+      <!-- start section cars -->
+      <section class="py-5">
+        <div class="main-title text-center my-5">
+          <h1 class="fw-bold h4 mb-2">سيارات هنجاي</h1>
+          <p class="mb-2">
+            اعثر على سيارة هنجاي المثالية. تنقل من خلال مجموعة سيارات هنجاي
+            الأخيرة
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-3 wow animate__fadeInDown ">
+              <a href="test-car.html" class="text-decoration-none text-black">
+                <div class="tt-car-item">
+                  <div class="image my-4">
+                    <img
+                      src="assets/images/cars/index_page5_car.webP"
+                      alt="img1"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="title text-center mb-4">
+                    <h3 class="px-2 fw-bold fs-5">Hangay N1</h3>
+                  </div>
+                  <div class="links">
+                    <ul class="list-unstyled d-flex p-0 gap-3">
+                      <li >
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="test-car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >تجربه قياده</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="Book a car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >حجز السياره</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 ps-2"
+                        ></i>
+                        <a
+                          href="maintenance.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >صيانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-3 wow animate__fadeInDown ">
+              <a href="test-car.html" class="text-decoration-none text-black">
+                <div class="tt-car-item">
+                  <div class="image my-4">
+                    <img
+                      src="assets/images/cars/index_page5_car.webP"
+                      alt="img1"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="title text-center mb-4">
+                    <h3 class="px-2 fw-bold fs-5">Hangay N1</h3>
+                  </div>
+                  <div class="links">
+                    <ul class="list-unstyled d-flex p-0 gap-3">
+                      <li >
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="test-car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >تجربه قياده</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="Book a car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >حجز السياره</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 ps-2"
+                        ></i>
+                        <a
+                          href="maintenance.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >صيانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-3 wow animate__fadeInDown ">
+              <a href="test-car.html" class="text-decoration-none text-black">
+                <div class="tt-car-item">
+                  <div class="image my-4">
+                    <img
+                      src="assets/images/cars/index_page5_car.webP"
+                      alt="img1"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="title text-center mb-4">
+                    <h3 class="px-2 fw-bold fs-5">Hangay N1</h3>
+                  </div>
+                  <div class="links">
+                    <ul class="list-unstyled d-flex p-0 gap-3">
+                      <li >
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="test-car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >تجربه قياده</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="Book a car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >حجز السياره</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 ps-2"
+                        ></i>
+                        <a
+                          href="maintenance.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >صيانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-3 wow animate__fadeInDown ">
+              <a href="test-car.html" class="text-decoration-none text-black">
+                <div class="tt-car-item">
+                  <div class="image my-4">
+                    <img
+                      src="assets/images/cars/index_page5_car.webP"
+                      alt="img1"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="title text-center mb-4">
+                    <h3 class="px-2 fw-bold fs-5">Hangay N1</h3>
+                  </div>
+                  <div class="links">
+                    <ul class="list-unstyled d-flex p-0 gap-3">
+                      <li >
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="test-car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >تجربه قياده</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="Book a car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >حجز السياره</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 ps-2"
+                        ></i>
+                        <a
+                          href="maintenance.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >صيانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-3 wow animate__fadeInDown ">
+              <a href="test-car.html" class="text-decoration-none text-black">
+                <div class="tt-car-item">
+                  <div class="image my-4">
+                    <img
+                      src="assets/images/cars/index_page5_car.webP"
+                      alt="img1"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="title text-center mb-4">
+                    <h3 class="px-2 fw-bold fs-5">Hangay N1</h3>
+                  </div>
+                  <div class="links">
+                    <ul class="list-unstyled d-flex p-0 gap-3">
+                      <li >
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="test-car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >تجربه قياده</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="Book a car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >حجز السياره</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 ps-2"
+                        ></i>
+                        <a
+                          href="maintenance.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >صيانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-lg-3 wow animate__fadeInDown ">
+              <a href="test-car.html" class="text-decoration-none text-black">
+                <div class="tt-car-item">
+                  <div class="image my-4">
+                    <img
+                      src="assets/images/cars/index_page5_car.webP"
+                      alt="img1"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="title text-center mb-4">
+                    <h3 class="px-2 fw-bold fs-5">Hangay N1</h3>
+                  </div>
+                  <div class="links">
+                    <ul class="list-unstyled d-flex p-0 gap-3">
+                      <li >
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="test-car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >تجربه قياده</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 "
+                        ></i>
+                        <a
+                          href="Book a car.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >حجز السياره</a
+                        >
+                      </li>
+                      <li>
+                        <i
+                          class="fa-solid fa-chevron-left text-danger fw-bold fs-6 ps-2"
+                        ></i>
+                        <a
+                          href="maintenance.html"
+                          class="text-decoration-none text-black fw-bold"
+                          >صيانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+           
+          </div>
+        </div>
+      </section>
+      <!-- end section cars -->
+      <!-- footer -->
+      <footer class="py-5">
+        <div class="contact">
+          <div class="row flex- container m-auto">
+            <div
+              class="contact-item col-sm-12 col-md-4 d-flex justify-content-center align-items-center"
+            >
+              <h3>احصل علي اخر مستجدات هوندا</h3>
+              <!-- <img src="assets/images/new-letter.svg"></img> -->
+            </div>
+            <div
+              class="contact-item col-sm-12 col-md-5 d-flex justify-content-center align-items-center"
+            >
+              <input type="email" placeholder="البريد الالكتروني" />
+              <input type="text" placeholder="الاسم الكامل" />
+            </div>
+
+            <div
+              class="contact-item col-sm-6 col-md-3 d-flex justify-content-center align-items-center"
+            >
+              <button class="d-flex justify-content-between align-items-center">
+                <i class="bi bi-arrow-left"></i>
+                <span>الاشتراك</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">العلامات التجارية</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li><a href="#" class="text-decoration-none">سيارات</a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >الدراجات النارية</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">منتجات الطاقة</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">محركات بحرية</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">نبذة عنا</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li><a href="#" class="text-decoration-none">نبذة عنا</a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> تاريخ هوندا</a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none">أخبار </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">الأمن والسلامة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >الأمن والسلامة في هوندا
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      جوائز فئة الأمن والسلامة
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="footer-title text-white">الأمن والسلامة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      التكنولوجيا في هوندا</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">روابط مفيدة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >هوندا حول العالم
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">تكنولوجيا</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      التكنولوجيا في هوندا
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">الدولة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      المملكة العربية السعودية
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> البحرين </a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none"> الأردن </a></li>
+                  <li><a href="#" class="text-decoration-none"> لبنان </a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> سلطنة عمان </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> دولة قطر </a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none"> مصر </a></li>
+                  <li><a href="#" class="text-decoration-none"> Benin </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

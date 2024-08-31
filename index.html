@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="شركة الرسام المحدودة لجميع انواع السيارات"
+    />
+    <title>شركة الرسام المحدوده</title>
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- icon title -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/Logo/LOGO_4.png"
+      type="image/x-icon"
+    />
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body dir="rtl">
+    <div class="whatsApp position-fixed">
+          <a href="https://wa.me/9660550115887" class="text-decoration-none text-white">
+            <i class="fa-brands fa-whatsapp fs-4"></i>
+          </a>
+    </div>
+      <!-- start navbar -->
+      <header>
+        <nav class="container-fluid shadow">
+          <div class="navbar py-3 px-2">
+            <div class="nav-btn">
+              <span
+                id="nav-btn"
+                class="bg-main circle-btn d-flex justify-content-center align-items-center crusor-pointer"
+              >
+                <i
+                  id="icon"
+                  class="fa-solid fa-bars-staggered text-white fs-4"
+                ></i>
+              </span>
+            </div>
+            <div class="nav-bt-mobile d-none">
+              <span
+                id="nav-btn"
+                class="bg-main circle-btn d-flex justify-content-center align-items-center crusor-pointer"
+              >
+                <i
+                  id="icon"
+                  class="fa-solid fa-bars-staggered text-white fs-4"
+                ></i>
+              </span>
+            </div>
+            <div
+              class="nav-logo d-flex justify-content-between align-items-center gap-2"
+            >
+              <h1 class="h5">
+                <a href="index.html" class="text-decoration-none text-black">
+                  شركة الرسام المحدودة
+                </a>
+              </h1>
+              <div>
+                <img
+                  src="assets/images/Logo/LOGO_4.webP"
+                  alt="Logo"
+                  width="65"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div
+              class="nav-search d-flex justify-content-between align-items-center gap-2"
+            >
+              <div class="lang">
+                <span>English</span>
+              </div>
+              <span class="space">|</span>
+              <div>
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- start menu -->
+          <div id="navClick" class="navClick d-none">
+            <div class="container-fluid py-5">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="items">
+                    <ul class="list-unstyled">
+                      <li id="prod">علامتنا التجارية</li>
+                      <li>العروض</li>
+                      <li>الصيانة وقطع غيار</li>
+                      <li>مواقعنا</li>
+                      <li>الاخبار</li>
+                      <li>التوظيف</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    id="product"
+                    class="product animate__animated animate__zoomIn d-none"
+                  >
+                    <ul class="list-unstyled mb-0">
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>هانجاي</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>ساويست</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>عربيات الجولف</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>الدراجات النارية</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    id="cars"
+                    class="product d-none animate__animated animate__zoomIn"
+                  >
+                    <ul class="list-unstyled">
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3"
+                      >
+                        <a href="cars.html" class="text-decoration-none"
+                          >المركبات</a
+                        >
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3"
+                      >
+                        <span>الصيانات و قطع الغيار</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+            </div>
+          </div>
+          <!-- end menu -->
+           <!-- mobile nav -->
+           <div class="navbar-mobile py-4 px-1 d-none">
+            <div class="closeIcon my-2 position-relative">
+              <div class="position-absolute xxx px-3">
+                <i class="fa-solid fa-xmark crusor-pointer"></i>
+              </div>
+            </div>
+            <div class="accordion my-5" id="accordionExample">
+              <div class="accordion-item collapsed">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    علامات التجاريه
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse " data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="list-unstyled p-0">
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          هانجاي
+                        </a>
+                      </li>
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          ساويست
+                        </a>
+                        <span>
+                          
+                        </span>
+                      </li>
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          ساويست
+                        </a>
+                      </li>
+                      <li class="list-mobile my-2">
+                        <a href="#" class="text-black text-decoration-none fw-bold py-2 d-block">
+                          الدراجات النارية
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    العروض 
+                  </button>
+                </h2>
+
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    الصيانة وقطع غيار 
+                  </button>
+                </h2>
+
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    مواقعنا
+                  </button>
+                </h2>
+
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    الاخبار
+                  </button>
+                </h2>
+
+              </div>
+            </div>
+           </div>
+
+        </nav>
+      </header>
+      <!-- end navbar -->
+      <!-- start main  -->
+      <main class="vh-100 overflow-hidden">
+        <div class="your-slider">
+          <div class="sliders d-flex justify-content-between">
+            <div
+              class="slide-content d-flex justify-content-center text-center flex-column"
+            >
+              <h3 class="fw-bold fs-1 py-3">
+                تحقيق فوز جديد هانجاي عبر مفهوم تصميم سيارة صالون 0 سيريس
+                "الأفضل من بين الأفضل" في جوائز ريد دوت للتصميم
+              </h3>
+              <p>
+                تحتفل هانجاي بمزيد من جوائز ريد دوت حيث حقق الطراز الرائد
+                (Honda 0 Series) الفوز بجائزة (Red Dot: Best of the Best 2024)
+                ضمن فئة مفهوم التصميم.
+              </p>
+              <p>
+                كما تم منح تكريم لـ Space-Hub وهو ضمن مفهوم نفس فئة (Honda 0
+                Series)
+              </p>
+            </div>
+            <div class="slide-img">
+              <img
+                src="assets/images/slider/2024_MXGP_R13_R_Czech-Republic_1160x980.webp
+                "
+                alt="SlideOne"
+                class="gallery-img"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between">
+            <div
+              class="slide-content d-flex justify-content-center text-center flex-column"
+            >
+              <h3 class="fw-bold fs-1 py-3">
+                فوز "فيكتوريوس جاجسر" بسباق الجائزة الكبرى التشيكي بعد فوزه
+                الثاني المثير للإعجاب في سباق الدراجات النارية.
+              </h3>
+              <p>
+                تحتفل هانجاي بمزيد من جوائز ريد دوت حيث حقق الطراز الرائد
+                (Honda 0 Series) الفوز بجائزة (Red Dot: Best of the Best 2024)
+                ضمن فئة مفهوم التصميم.
+              </p>
+              <p>
+                كما تم منح تكريم لـ Space-Hub وهو ضمن مفهوم نفس فئة (Honda 0
+                Series)
+              </p>
+            </div>
+            <div class="slide-img">
+              <img
+                src="assets/images/slider/ewc_-suzuka-8-hours_1160x980.webp"
+                alt="SlideTwo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between">
+            <div
+              class="slide-content d-flex justify-content-center text-center flex-column"
+            >
+              <h3 class="fw-bold fs-1 py-3">
+                أطلقت شركة هانجاي موتـور (الشرق الأوسط وأفريقيا) أول محرك V8 –
+                هانجاي مارين BF350 الجديدة
+              </h3>
+              <p>
+                أخيراً حصل تيم جاجسر من فريق HRC على الفوز الإجمالي في حلبة
+                لوكيت في جمهورية التشيك بعد سنوات من المحاولة، حيث سجل نتيجة
+                ثلاثة واحد حيث عمت مظاهر الاحتفال والابتهاج خصوصاً بين العديد من
+                المشجعين السلوفينيين. كما رفع السلوفيني تقدمه في البطولة إلى 36
+                نقطة على أقرب منافسيه
+              </p>
+            </div>
+            <div class="slide-img">
+              <img
+                src="assets/images/slider/BF350_1160x980.webp"
+                alt="SlideTwo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between">
+            <div
+              class="slide-content d-flex justify-content-center text-center flex-column"
+            >
+              <h3 class="fw-bold fs-1 py-3">
+                فوز "فيكتوريوس جاجسر" بسباق الجائزة الكبرى التشيكي بعد فوزه
+                الثاني المثير للإعجاب في سباق الدراجات النارية.
+              </h3>
+              <p>
+                أخيراً حصل تيم جاجسر من فريق HRC على الفوز الإجمالي في حلبة
+                لوكيت في جمهورية التشيك بعد سنوات من المحاولة، حيث سجل نتيجة
+                ثلاثة واحد حيث عمت مظاهر الاحتفال والابتهاج خصوصاً بين العديد من
+                المشجعين السلوفينيين. كما رفع السلوفيني تقدمه في البطولة إلى 36
+                نقطة على أقرب منافسيه
+              </p>
+            </div>
+            <div class="slide-img">
+              <img
+                src="assets/images/slider/2024_MXGP_R13_R_Czech-Republic_1160x980.webp"
+                alt="SlideFour"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="sliders d-flex justify-content-between">
+            <div
+              class="slide-content d-flex justify-content-center text-center flex-column"
+            >
+              <h3 class="fw-bold fs-1 py-3">
+                إحراز هانجاي بايلوت أعلى تقييم من معهد التأمين للسلامة على الطرق
+                السريعة
+              </h3>
+              <p>
+                أخيراً حصل تيم جاجسر من فريق HRC على الفوز الإجمالي في حلبة
+                لوكيت في جمهورية التشيك بعد سنوات من المحاولة، حيث سجل نتيجة
+                ثلاثة واحد حيث عمت مظاهر الاحتفال والابتهاج خصوصاً بين العديد من
+                المشجعين السلوفينيين. كما رفع السلوفيني تقدمه في البطولة إلى 36
+                نقطة على أقرب منافسيه
+              </p>
+            </div>
+            <div class="slide-img">
+              <img
+                src="assets/images/slider/Pilot-1160x980.webp"
+                alt="SlideFour"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- end main  -->
+      <!-- start section gallery -->
+      <section class="vh-100 gallery">
+        <div class="row m-0 p-0 h-100">
+          <div class="col-md-4 h-100 ps-0 pe-0">
+            <div
+              class="h-100 position-relative crusor-pointer border border-3 border-black"
+            >
+              <div class="overlay"></div>
+              <img
+                src="assets/images/5.webp"
+                alt="firstimg"
+                class="gallery-img"
+              />
+              <div class="position-absolute img-title">
+                <h1 class="fw-bold text-white">هانجاي</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 h-100">
+            <div
+              class="h-49 hamada crusor-pointer position-relative border border-3 border-black mb-1"
+            >
+              <div class="overlay"></div>
+              <img
+                src="assets/images/5.webp"
+                alt="second"
+                class="gallery-img"
+              />
+              <div class="position-absolute img-title">
+                <h1 class="fw-bold text-white">ساويست</h1>
+              </div>
+            </div>
+            <div
+              class="h-49 hamada crusor-pointer position-relative border border-3 border-black"
+            >
+              <div class="overlay"></div>
+              <img
+                src="assets/images/1843c13b24a33bd43fcddad5.png!800.jpg"
+                alt="aaa"
+                class="gallery-img"
+              />
+              <div class="position-absolute img-title">
+                <h1 class="fw-bold text-white">عربات الجولف</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 h-100 ps-0 pe-0">
+            <div
+              class="h-33 hamada crusor-pointer position-relative border border-3 border-black mb-1"
+            >
+              <div class="overlay"></div>
+              <img
+                src="assets/images/1843c13b24a33bd43fcddad5.png!800.jpg"
+                alt="third"
+                class="gallery-img"
+              />
+              <div class="position-absolute img-title">
+                <h1 class="fw-bold text-white">الدرجات النارية</h1>
+              </div>
+            </div>
+            <div
+              class="h-33 hamada crusor-pointer position-relative border border-3 border-black mb-1"
+            >
+              <div class="overlay"></div>
+              <img src="assets/images/5.webp" alt="aaaa" class="gallery-img" />
+              <div class="position-absolute img-title">
+                <h1 class="fw-bold text-white">قطع الغيار</h1>
+              </div>
+            </div>
+            <div
+              class="h-33 hamada crusor-pointer position-relative border border-3 border-black"
+            >
+              <div class="overlay"></div>
+              <img src="assets/images/5.webp" alt="aaa" class="gallery-img" />
+              <div class="position-absolute img-title">
+                <h1 class="fw-bold text-white">الصيانة</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end gallery section -->
+      <!-- start section news -->
+      <section id="news" class="pt-5 ">
+        <h1 class="main-title scound-color fw-bold py-5 me-4">اخبارنا</h1>
+        <div class="row m-0 wow animate__backInRight">
+          <div class="col-md-3 p-0">
+            <div class="">
+              <div class="text p-4">
+                <h4>
+                  فوز "ماكس فيرستابين" بالسباق السادس لهذا الموسم مع جائزة كندا
+                  الكبرى
+                </h4>
+                <p>
+                  وحققت (2024 TOP SAFETY PICK+ - TSP+) مما ساهم في تصنيفها
+                  الإجمالي، حصلت سيارة بايلوت على أعلى التصنيفات من معهد التأمين
+                  للسلامة
+                </p>
+                <span class="scound-color fw-bold">
+                  <a> المزيد <i class="fa-solid fa-arrow-left-long"></i></a>
+                </span>
+              </div>
+              <div class="overflow-hidden">
+                <div class="img-news">
+                  <img
+                    src="assets/images/news img/Pilot-480x480.webp"
+                    alt="img1"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-0">
+            <div class="">
+              <div class="text p-4">
+                <h4>
+                  فوز "ماكس فيرستابين" بالسباق السادس لهذا الموسم مع جائزة كندا
+                  الكبرى
+                </h4>
+                <p>
+                  الجولة التاسعة من الموسم، أقيم سباق جائزة كندا الكبرى علي حلبه
+                  جبل -فيلنوف ...فاز في هذا السباق ماكس فيرستابين من فريق سباق
+                </p>
+                <span class="scound-color fw-bold">
+                  <a> المزيد <i class="fa-solid fa-arrow-left-long"></i></a>
+                </span>
+              </div>
+              <div class="overflow-hidden">
+                <div class="img-news">
+                  <img
+                    src="assets/images/news img/480 x 480-03.webp"
+                    alt="img1"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-0">
+            <div>
+              <div class="text p-4">
+                <h4>
+                  حفل الختام لسباق TT 2024 مع تحقيق مراكز متقدمة لفريق هـوندا
+                  المملكة
+                </h4>
+                <p>
+                  اختتم متسابقو فريق هوندا المملكة المتحدة للسباقات Honda Racing
+                  UK سباق TT 2024 بحصولهم على عدة منصات للتتويج بما فيهم الدراج
+                </p>
+                <span class="scound-color fw-bold">
+                  <a> المزيد <i class="fa-solid fa-arrow-left-long"></i></a>
+                </span>
+              </div>
+              <div class="overflow-hidden">
+                <div class="img-news">
+                  <img
+                    src="assets/images/news img/480x480-01.webp"
+                    alt="img3"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-0">
+            <div>
+              <div class="text p-4">
+                <h4>
+                  فوز "ماكس فيرستابين" بالسباق السادس لهذا الموسم مع جائزة كندا
+                  الكبرى
+                </h4>
+                <p>
+                  وحققت (2024 TOP SAFETY PICK+ - TSP+) مما ساهم في تصنيفها
+                  الإجمالي، حصلت سيارة بايلوت على أعلى التصنيفات من معهد التأمين
+                  للسلامة
+                </p>
+                <span class="scound-color fw-bold">
+                  <a> المزيد <i class="fa-solid fa-arrow-left-long"></i></a>
+                </span>
+              </div>
+              <div class="overflow-hidden">
+                <div class="img-news">
+                  <img
+                    src="assets/images/news img/Canadian GP_480x480.webp"
+                    alt="img1"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section news -->
+      <!-- start footer -->
+      <footer class="py-5">
+        <div class="contact">
+          <div class="row flex- container m-auto">
+            <div
+              class="contact-item col-sm-12 col-md-4 d-flex justify-content-center align-items-center"
+            >
+              <h3>احصل علي اخر مستجدات هوندا</h3>
+              <!-- <img src="assets/images/new-letter.svg"></img> -->
+            </div>
+            <div
+              class="contact-item col-sm-12 col-md-5 d-flex justify-content-center align-items-center"
+            >
+              <input type="email" placeholder="البريد الالكتروني" />
+              <input type="text" placeholder="الاسم الكامل" />
+            </div>
+
+            <div
+              class="contact-item col-sm-6 col-md-3 d-flex justify-content-center align-items-center"
+            >
+              <button class="d-flex justify-content-between align-items-center">
+                <i class="bi bi-arrow-left"></i>
+                <span>الاشتراك</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">العلامات التجارية</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li><a href="#" class="text-decoration-none">سيارات</a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >الدراجات النارية</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">منتجات الطاقة</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">محركات بحرية</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">نبذة عنا</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li><a href="#" class="text-decoration-none">نبذة عنا</a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> تاريخ هوندا</a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none">أخبار </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">الأمن والسلامة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >الأمن والسلامة في هوندا
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      جوائز فئة الأمن والسلامة
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="footer-title text-white">الأمن والسلامة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      التكنولوجيا في هوندا</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">روابط مفيدة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >هوندا حول العالم
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">تكنولوجيا</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      التكنولوجيا في هوندا
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">الدولة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      المملكة العربية السعودية
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> البحرين </a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none"> الأردن </a></li>
+                  <li><a href="#" class="text-decoration-none"> لبنان </a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> سلطنة عمان </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> دولة قطر </a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none"> مصر </a></li>
+                  <li><a href="#" class="text-decoration-none"> Benin </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

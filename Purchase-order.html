@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="شركة الرسام المحدودة لجميع انواع السيارات"
+    />
+    <title>شركة الرسام المحدوده</title>
+    <!-- icon title -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/Logo/LOGO_4.png"
+      type="image/x-icon"
+    />
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/purchase-order.css" />
+  </head>
+  <body dir="rtl">
+    <div class="whatsApp position-fixed">
+      <a href="https://wa.me/9660550115887" class="text-decoration-none text-white">
+        <i class="fa-brands fa-whatsapp fs-4"></i>
+      </a>
+</div>
+    <!-- start title -->
+    <nav class="bg-main py-4">
+      <div class="container">
+        <div class="nav d-flex justify-content-between align-items-center">
+          <div class="nav-title">
+            <h1 class="text-white h2">طلب الشراء</h1>
+          </div>
+          <div class="nav-links">
+            <ul class="list-unstyled m-0 d-flex gap-2">
+              <li>
+                <a href="index.html" class="text-white text-decoration-none"
+                  >الرئيسيه</a
+                >
+              </li>
+              <span class="text-white">/</span>
+              <li class="scound-color fw-bold">طلب الشراء</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end title -->
+    <!-- start form -->
+    <section id="form" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-12">
+            <ul class="list-unstyled form-list">
+              <li class="bg-main text-white active">
+                <span class="p-2"> طلب شراء سيارة </span>
+              </li>
+              <li class="p-2 d-block pe-4">افراد</li>
+              <li class="p-2 d-block pe-4">شركات</li>
+            </ul>
+          </div>
+          <div class="col-md-9 col-12">
+            <div class="form p-4 shadow-sm w-75 m-auto">
+              <div class="car-name row my-3">
+                <div class="col-md-4">
+                  <label for=""
+                    >اسم السيارة المطلوبة
+                    <span class="red-color">*</span></label
+                  >
+                </div>
+                <div class="col-md-8">
+                  <input
+                    type="text"
+                    disabled
+                    class="form-control"
+                    value="هانجاي"
+                  />
+                </div>
+              </div>
+              <div class="price row my-3">
+                <div class="col-md-4">
+                  <label for="price"
+                    >السعر<span class="red-color">*</span></label
+                  >
+                </div>
+                <div class="col-md-8">
+                  <input
+                    type="text"
+                    id="price"
+                    disabled
+                    class="form-control"
+                    value="100000"
+                  />
+                </div>
+              </div>
+              <div class="name row my-3">
+                <div class="col-md-4">
+                  <label for="">الاسم<span class="red-color">*</span></label>
+                </div>
+                <div class="col-md-8">
+                  <input type="text" class="form-control" placeholder="الاسم" />
+                </div>
+              </div>
+              <div class="email row my-3">
+                <div class="col-md-4">
+                  <label for="email">البريد الالكتروني</label>
+                </div>
+                <div class="col-md-8">
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="البريد الالكتروني"
+                  />
+                </div>
+              </div>
+              <div class="phone row my-3">
+                <div class="col-md-4">
+                  <label for="phone"
+                    >رقم الجوال<span class="red-color">*</span></label
+                  >
+                </div>
+                <div class="col-md-8">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="رقم الجوال 05xxxxxxxx"
+                  />
+                </div>
+              </div>
+              <div class="select row my-3">
+                <div class="col-md-4">
+                  <label for="select"
+                    >المدينة<span class="red-color">*</span></label
+                  >
+                </div>
+                <div class="col-md-8">
+                  <select id="select" class="form-select">
+                    <option disabled selected>اختار المدينة ..</option>
+                    <option>جده</option>
+                    <option>المدينه</option>
+                    <option>الرياض</option>
+                  </select>
+                </div>
+              </div>
+              <div class="main-btn row my-3">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <button class="btn bg-main text-white d-block w-75 me-auto">
+                    ارسال
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end form -->
+    <!-- start footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div>
+              <h4 class="footer-title text-white">العلامات التجارية</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li><a href="#" class="text-decoration-none">سيارات</a></li>
+                <li>
+                  <a href="#" class="text-decoration-none">الدراجات النارية</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">منتجات الطاقة</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">محركات بحرية</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div>
+              <h4 class="footer-title text-white">نبذة عنا</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li><a href="#" class="text-decoration-none">نبذة عنا</a></li>
+                <li>
+                  <a href="#" class="text-decoration-none"> تاريخ هوندا</a>
+                </li>
+                <li><a href="#" class="text-decoration-none">أخبار </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div>
+              <h4 class="footer-title text-white">الأمن والسلامة</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li>
+                  <a href="#" class="text-decoration-none"
+                    >الأمن والسلامة في هوندا
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    جوائز فئة الأمن والسلامة
+                  </a>
+                </li>
+              </ul>
+              <h4 class="footer-title text-white">الأمن والسلامة</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    التكنولوجيا في هوندا</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div>
+              <h4 class="footer-title text-white">روابط مفيدة</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li>
+                  <a href="#" class="text-decoration-none">هوندا حول العالم </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div>
+              <h4 class="footer-title text-white">تكنولوجيا</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    التكنولوجيا في هوندا
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div>
+              <h4 class="footer-title text-white">الدولة</h4>
+              <ul class="list-unstyled p-0 my-4">
+                <li>
+                  <a href="#" class="text-decoration-none">
+                    المملكة العربية السعودية
+                  </a>
+                </li>
+                <li><a href="#" class="text-decoration-none"> البحرين </a></li>
+                <li><a href="#" class="text-decoration-none"> الأردن </a></li>
+                <li><a href="#" class="text-decoration-none"> لبنان </a></li>
+                <li>
+                  <a href="#" class="text-decoration-none"> سلطنة عمان </a>
+                </li>
+                <li><a href="#" class="text-decoration-none"> دولة قطر </a></li>
+                <li><a href="#" class="text-decoration-none"> مصر </a></li>
+                <li><a href="#" class="text-decoration-none"> Benin </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+  </body>
+</html>

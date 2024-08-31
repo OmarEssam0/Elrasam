@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="شركة الرسام المحدودة لجميع انواع السيارات"
+    />
+    <title>شركة الرسام المحدوده</title>
+    <!-- icon title -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/Logo/LOGO_4.png"
+      type="image/x-icon"
+    />
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body dir="rtl">
+  <div class="parent">
+    <div class="whatsApp position-fixed">
+      <a href="https://wa.me/9660550115887" class="text-decoration-none text-white">
+        <i class="fa-brands fa-whatsapp fs-4"></i>
+      </a>
+</div>
+      <!-- start navbar -->
+      <header class="position-static">
+        <nav class="container-fluid shadow">
+          <div class="navbar py-3 px-2">
+            <div class="nav-btn">
+              <span
+                id="nav-btn"
+                class="bg-main circle-btn d-flex justify-content-center align-items-center crusor-pointer"
+              >
+                <i
+                  id="icon"
+                  class="fa-solid fa-bars-staggered text-white fs-4"
+                ></i>
+              </span>
+            </div>
+            <div
+              class="nav-logo d-flex justify-content-between align-items-center gap-2"
+            >
+              <h1 class="h5">
+                <a href="index.html" class="text-decoration-none text-black">
+                 شركة الرسام المحدودة
+                </a>
+              </h1>
+              <div>
+                <img
+                  src="assets/images/Logo/LOGO_4.webP"
+                  alt="Logo"
+                  width="65"
+                  class="logo"
+                />
+              </div>
+            </div>
+            <div
+              class="nav-search d-flex justify-content-between align-items-center gap-2"
+            >
+              <div class="lang">
+                <span>English</span>
+              </div>
+              <span class="space">|</span>
+              <div>
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+            </div>
+          </div>
+  
+          <!-- start menu -->
+          <div id="navClick" class="navClick d-none">
+            <div class="container-fluid py-5">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="items">
+                    <ul class="list-unstyled">
+                      <li id="prod">علامتنا التجارية</li>
+                      <li>العروض</li>
+                      <li>الصيانة وقطع غيار</li>
+                      <li>مواقعنا</li>
+                      <li>الاخبار</li>
+                      <li>التوظيف</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    id="product"
+                    class="product animate__animated animate__zoomIn d-none"
+                  >
+                    <ul class="list-unstyled">
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>هانجاي</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>ساويست</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>عربيات الجولف</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3 Brands"
+                      >
+                        <span>الدراجات النارية</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    id="cars"
+                    class="product d-none animate__animated animate__zoomIn"
+                  >
+                    <ul class="list-unstyled">
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3"
+                      >
+                        <a href="cars.html" class="text-decoration-none">المركبات</a>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                      <li
+                        class="d-flex justify-content-between align-items-center crusor-pointer py-3"
+                      >
+                        <span>الصيانات و قطع الغيار</span>
+                        <i class="fa-solid fa-arrow-left-long scound-color"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3"></div>
+              </div>
+            </div>
+          </div>
+          <!-- end menu -->
+        </nav>
+      </header>
+      <!-- end navbar -->
+      <section class="py-5 ">
+          <div class="container">
+            <h4 class="fw-bold py-2">
+                * لحجز موعد صيانة فضالً ملء نموذج الموعد وسنكون على تواصل معك خالل 48 ساعة لتحديد اليوم والوقت المناسب 
+                لك
+            </h4>
+            <div class="w-75 m-auto py-3">
+              <div class="omar">
+                <div class="w-100">
+                    <label for="firstName" class="fw-bold py-3 text-center d-block">الاسم الاول
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" id="firstName" placeholder="الاسم الاول" class="form-control fw-bold">
+                </div>
+                <div class="w-100">
+                    <label for="NickName" class="fw-bold py-3 text-center d-block">اللقب 
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" id="NickName" placeholder=" اللقب" class="form-control fw-bold">
+                </div>
+                <div class="w-100">
+                    <label for="PhoneNumber" class="fw-bold py-3 text-center d-block">رقم الجوال 
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" id="PhoneNumber" placeholder="رقم الجوال" class="form-control fw-bold">
+                </div>
+              </div>
+              <div>
+                <label for="Email" class="fw-bold py-3">البريد الالكتروني 
+                  <span class="text-danger">*</span>
+                </label>
+                <input type="email" id="Email" placeholder="البريد الالكتروني" class="form-control fw-bold">
+            </div>
+              <div class="omar">
+                <div class="w-100">
+                  <label for="cars" class="fw-bold py-3 text-center d-block">العلامه التجارية للسيارة <span class="text-danger">*</span></label>
+                  <select name="cars" id="cars" class="form-select">
+                      <option value="هانجاي">هانجاي</option>
+                      <option value="ساويست">ساويست</option>
+                      <option value="LVTONG">LVTONG</option>
+                      <option value="جريت وول">جريت وول</option>
+                      <option value="ديفاك">ديفاك</option>
+                      <option value="فوتون">فوتون</option>
+                      <option value="بايك">بايك</option>
+                      <option value="هافال">هافال</option>
+                      <option value="شانجان">شانجان</option>
+                    </select>
+              </div>
+             
+              <div class="w-100">
+                <label for="year" class="fw-bold py-3 text-center d-block">موديل السيارة (سنة الصنع) <span class="text-danger">*</span></label>
+                <input type="text" id="year" placeholder="موديل السيارة" class="form-control fw-bold">
+            </div>
+          
+              </div>
+              <div>
+                <label for="المدينة" class="fw-bold py-3">المدينة <span class="text-danger">*</span></label>
+                <select name="المدينة" id="المدينة" class="form-select">
+                    <option value="الرياض">الرياض</option>
+                    <option value="الدمام">الدمام</option>
+                    <option value="جدة">جدة</option>
+                  </select>
+            </div>
+            <div class="d-flex gap-2 align-items-center py-3 flex-wrap">
+              <div class="w-100">
+                <label for="year" class="fw-bold py-3">نوع الموعد <span class="text-danger">*</span></label>
+                <div class="d-flex align-items-center gap-2">
+                    <input type="radio" id="option1" name="option" value="صيانة دورية" class="form-check-inpu">
+                    <label for="option1" class="fw-bold"> صيانة دورية</label><br>
+                    <input type="radio" id="option2" name="option" value="صيانة اخري" class="form-check-inpu">
+                    <label for="option2" class="fw-bold">صيانة اخري</label><br>
+                </div>
+               </div>
+               <div class="w-100">
+                <label for="الوقت" class="fw-bold py-3 d-block"> الوقت<span class="text-danger">*</span></label>
+                <div class="d-flex align-items-center gap-2">
+                    <input type="radio" id="option1" name="الوقت" value="صباحا " class="form-check-inpu">
+                    <label for="option1" class="fw-bold">صباحا</label><br>
+                    <input type="radio" id="option2" name="الوقت" value="مساءا" class="form-check-inpu">
+                    <label for="option2" class="fw-bold">مساءا</label><br>
+                </div>
+            </div>
+            </div>
+             
+                
+                
+                <div>
+                    <label for="معلومات إضافة حول طلب الخدمة " class="fw-bold py-3">معلومات إضافة حول طلب الخدمة</label>
+                    <div class="form-floating">
+                        <textarea class="form-control text-end" placeholder="معلومات إضافة حول طلب الخدمة" id="معلومات إضافة حول طلب الخدمة "></textarea>
+                        <label for="معلومات إضافة حول طلب الخدمة">معلومات إضافة حول طلب الخدمة </label>
+                      </div>
+                </div>
+                <button class="btn btn-primary my-4 w-100" >
+                    ارسال
+                </button>
+            </div>
+        </div>
+      </section>
+      <!-- start footer -->
+      <footer class="py-5">
+        <div class="contact">
+          <div class="row flex- container m-auto">
+            <div class="contact-item col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+              <h3>احصل
+              علي اخر مستجدات هوندا
+            </h3>
+              <!-- <img src="assets/images/new-letter.svg"></img> -->
+             </div>
+              <div class="contact-item col-sm-12 col-md-5 d-flex justify-content-center align-items-center">
+                <input type="email" placeholder="البريد الالكتروني"> 
+                <input type="text" placeholder="الاسم الكامل">
+              </div>
+             
+             <div class="contact-item col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+              <button class=" d-flex justify-content-between align-items-center">
+                    <i class="bi bi-arrow-left"></i>
+                    <span>الاشتراك</span>
+                  </button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">العلامات التجارية</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li><a href="#" class="text-decoration-none">سيارات</a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none">الدراجات النارية</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">منتجات الطاقة</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">محركات بحرية</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">نبذة عنا</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li><a href="#" class="text-decoration-none">نبذة عنا</a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> تاريخ هوندا</a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none">أخبار </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">الأمن والسلامة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >الأمن والسلامة في هوندا
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      جوائز فئة الأمن والسلامة
+                    </a>
+                  </li>
+                </ul>
+                <h4 class="footer-title text-white">الأمن والسلامة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      التكنولوجيا في هوندا</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">روابط مفيدة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">هوندا حول العالم </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">تكنولوجيا</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      التكنولوجيا في هوندا
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div>
+                <h4 class="footer-title text-white">الدولة</h4>
+                <ul class="list-unstyled p-0 my-4">
+                  <li>
+                    <a href="#" class="text-decoration-none">
+                      المملكة العربية السعودية
+                    </a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none"> البحرين </a></li>
+                  <li><a href="#" class="text-decoration-none"> الأردن </a></li>
+                  <li><a href="#" class="text-decoration-none"> لبنان </a></li>
+                  <li>
+                    <a href="#" class="text-decoration-none"> سلطنة عمان </a>
+                  </li>
+                  <li><a href="#" class="text-decoration-none"> دولة قطر </a></li>
+                  <li><a href="#" class="text-decoration-none"> مصر </a></li>
+                  <li><a href="#" class="text-decoration-none"> Benin </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+  </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
